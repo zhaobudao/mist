@@ -14,12 +14,11 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
-import org.zhaobudao.mist.interceptor.SigninInterceptor;
 
 
 public class Template extends JdbcTemplate {
 
-    private static Logger log = Logger.getLogger(SigninInterceptor.class);
+    private static Logger log = Logger.getLogger(Template.class);
     public static final String CLASS = "class";
     public static final String SPACE = " ";
     public static final String LEFT_BRACKET = "(";

@@ -5,9 +5,9 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import org.apache.log4j.Logger;
 
-public class StartupListener implements ServletContextListener {
+public class ContextListener implements ServletContextListener {
 
-    private static Logger log = Logger.getLogger(StartupListener.class);
+    private static Logger log = Logger.getLogger(ContextListener.class);
 
     private ServletContext context;
 
